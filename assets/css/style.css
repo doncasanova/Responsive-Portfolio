@@ -1,7 +1,9 @@
+
+@media(min-width: 992px) {
 body{
     background-color: whitesmoke;
 }
-
+}
 h1{
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -9,7 +11,7 @@ h1{
 h2{
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
+@media(min-width: 992px) {
 .name{
     position: relative;
     left: 20%;
@@ -20,9 +22,9 @@ h2{
     padding: 0px 10px 20px 10px ;   
     background-color: rgb(46, 22, 70);
     color: white;
-
 }
-
+}
+@media(min-width: 992px) {
 ul {
     position: absolute;
     top: 4%;
@@ -33,11 +35,12 @@ ul {
     overflow: hidden;
     background-color:whitesmoke;
 }
+}
 
 li {
     float: left;
 }
-
+@media(min-width: 992px) {
 li a {
     display: block;
     color: black;
@@ -45,12 +48,14 @@ li a {
     padding: 16px;
     text-decoration: none;
 }
-
+}
+@media(min-width: 992px) {
 li a:hover {
     color: white;
     background-color: rgb(46, 22, 70);
 }
-
+}
+@media(min-width: 992px) {
 .main_back{
     position: absolute;
     box-sizing: content-box; 
@@ -61,8 +66,8 @@ li a:hover {
     padding: 10px 100px 100px 0px;    
     background-image: url("maxresdefault_yJhJfNe.jpg");
 }
-
-
+}
+@media(min-width: 992px) {
 .inside{
     position: relative;
     left: 20%;
@@ -71,14 +76,14 @@ li a:hover {
     height: 50%;
     padding: 10px 100px 100px 10px;    
     background-color: whitesmoke;
-
+}
 }
 
     img{
         float: left;
 
     }
-        
+    @media(min-width: 992px) {  
     .footer{
         text-align: center;
         position: relative;
@@ -88,6 +93,6 @@ li a:hover {
         padding: 30px 15px 5px 100px;    
         background-color: rgb(48, 29, 94);
         color: white
-    
+    }
     }
     
